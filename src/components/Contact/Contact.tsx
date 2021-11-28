@@ -1,3 +1,5 @@
+import React from 'react'
+import { Button } from '../Button/Button'
 import './Contact.scss'
 export const Contact = () => {
     return(
@@ -26,6 +28,9 @@ export const Contact = () => {
                <div>
                    <label>COMPANY</label>
                    <input id='company' type='string'/>
+               </div>
+               <div style={{marginRight: 'auto'}}>
+                   <Button text='Submit' class='form-btn'/>
                </div>
            </form>
            </div>

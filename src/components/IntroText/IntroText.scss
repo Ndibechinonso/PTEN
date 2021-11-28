@@ -42,19 +42,20 @@
      }
    }
  }
- }
  .buttonClass{
-   background: #55f; 
-   border-color: #55f;
-   padding: 0 80px;
-   color: #ffffff;
-   border-radius: 5px;
-   &:hover{
-   color: #55f;
-   background-color: #ffffff;
-   border-color: #ffffff;
-   font-weight: 600;
-   transition: all .1s ease;
-   }
+  background: #55f; 
+  border-color: #55f;
+  padding: 0 80px;
+  color: #ffffff;
+  border-radius: 5px;
+  &:hover{
+  color: #55f;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  font-weight: 600;
+  transition: all .1s ease;
+  }
+}
  }
+
 

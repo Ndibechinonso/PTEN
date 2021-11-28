@@ -1,38 +1,59 @@
-.contact-container{
-    padding: 50px 20%;
-    background: transparent;
-    .contact-content{
-        padding: 10px;
-        background: #ffffff;
-    }
-    h1{
-        font-size: 68px;
-        background: -webkit-linear-gradient(
-            100deg, #3d63e8, #5e3de8 4%, #e74b90 96%, #ed7a7a);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    h1, p{
-        text-align: center;
-    }
-.form-div{
-    
+.contact-container {
+  padding: 50px 20%;
+  background: transparent;
+  .contact-content {
+    padding: 10px;
+    background: #ffffff;
+  }
+  h1 {
+    font-size: 68px;
+    background: -webkit-linear-gradient(
+      100deg,
+      #3d63e8,
+      #5e3de8 4%,
+      #e74b90 96%,
+      #ed7a7a
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  h1,
+  p {
+    text-align: center;
+  }
+  .form-div {
     display: grid;
     grid-template-columns: auto auto;
     grid-column-gap: 3.57vw;
     grid-row-gap: 3.57vw;
-    div{
-        display: flex;
-        flex-direction: column;
+    div {
+      display: flex;
+      flex-direction: column;
     }
-    label{
-        margin-bottom: 5px;
+    label {
+      margin-bottom: 5px;
     }
-    input{
-        padding: 6px 10px;
-        border: 1.2px solid #000;
-        border-radius: 4px;
-        font-size: 0.94em;
+    input {
+      padding: 6px 10px;
+      border: 1.2px solid #000;
+      border-radius: 4px;
+      font-size: 0.94em;
     }
-}
+    .form-btn {
+        display: inline;
+        background: #55f;
+        border: 1px solid #55f;
+        padding: 10px 40px;
+        color: #fff;
+        border-radius: 5px;
+        &:hover {
+          color: #55f;
+          border: 1px solid #55f; 
+          background-color: #ffffff;
+          border-color: #55f;
+          font-weight: 600;
+          transition: all 0.1s ease;
+        }
+      }
+  }
 }
