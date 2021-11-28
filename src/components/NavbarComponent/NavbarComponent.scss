@@ -1,0 +1,15 @@
+.navbar {
+    .navbar-brand{
+        font-weight: 700;
+    }
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block !important;
+}
+.first-nav-item .dropdown-menu{
+    min-width: 540px;
+}
+.card{
+    border: none;
+}

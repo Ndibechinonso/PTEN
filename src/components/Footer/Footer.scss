@@ -1,0 +1,36 @@
+.footer-container{
+    padding: 60px 30px 30px 30px;
+    background:#1a212a;
+    .card{
+     background:#1a212a;  
+     color: #ffffff;
+     a{
+         text-decoration: none;
+         color: #ffffff;
+     }
+    }
+    .card-footer{
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    p{
+        margin-bottom: 0;
+    }
+ .brand-footer{
+     margin-bottom: 200px;
+ }
+ .social-footer{
+     .card-title{
+         display: flex;
+         flex-direction: row;
+         gap: 20px;
+     }
+     i{
+         font-size: 40px;
+         color: rgba(255, 255, 255, 0.6);
+         &:hover{
+             color: #fff;
+         }
+     }
+ }
+}
