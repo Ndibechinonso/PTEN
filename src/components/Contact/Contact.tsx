@@ -30,7 +30,7 @@ export const Contact = () => {
                    <input id='company' type='string'/>
                </div>
                <div style={{marginRight: 'auto'}}>
-                   <Button text='Submit' class='form-btn'/>
+                   <Button text='Submit' className='form-btn'/>
                </div>
            </form>
            </div>

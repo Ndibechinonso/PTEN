@@ -22,16 +22,17 @@
 // }
 
 .overlay{
- 
-    position: sticky;
-      height: 70vh;
+      height: 77vh;
       z-index: -5;
-      top:0;
-    left:0;
     img{
-        position: fixed;
-        object-fit: fill;
+        object-fit: contain;
         width: 100%;
-        height: 60%;
-      } 
+        overflow-y: hidden !important;      } 
+  }
+
+  @media screen and (max-width: 1240px) {
+    // .overlay{
+    //   background-position: top;
+    // }
+
   }

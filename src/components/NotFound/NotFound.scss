@@ -1,0 +1,22 @@
+.errorPage{
+    background-color: #000000;
+    height: 90vh;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    h1{
+        font-size: 62px;
+        font-weight: 900;
+    }
+    .error-btn{
+        background-color: #33a532;
+        padding: 10px 20px;
+        font-weight: 600;
+        border-radius: 8px;
+        color: #ffffff;
+
+    }
+}

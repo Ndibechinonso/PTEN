@@ -1,7 +1,52 @@
 .navbar {
+    position: sticky !important;
+    top: 0;
     .navbar-brand{
         font-weight: 700;
+        img{
+            width: 60px;
+        }
     }
+    .signIn{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        margin-left: auto;
+        a{
+        color: rgba(0, 0, 0, 0.55);
+        }
+        .signup-btn{
+            color: #ffffff;
+            background: blue;
+            padding: 10px 20px;
+            font-weight: 600;
+            border-radius: 8px;
+            outline: none;
+            border: 1px solid blue;
+            -webkit-transition: background-color 2s ease-out;
+            -moz-transition: background-color 2s ease-out;
+            -o-transition: background-color 2s ease-out;
+            transition: background-color 2s ease-out;
+            -webkit-transition: color 2s ease-out;
+            -moz-transition: color 2s ease-out;
+            -o-transition: color 2s ease-out;
+            transition: color 2s ease-out;
+            &:hover{
+                background: #ffffff;
+                color: blue;
+            }
+        }
+    }
+}
+
+.signout-btn{
+    background: red;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    outline: none;
+    color: #ffffff;
 }
 
 .nav-item:hover .dropdown-menu {
@@ -13,6 +58,14 @@
 .card{
     border: none;
 }
-.nav-link:hover{
+.nav-link{
+font-weight: 600;
+    &:hover{
     color: #55f !important;
     }
+}
+
+.sticky{
+        position: sticky !important;
+        top: 0;
+      }

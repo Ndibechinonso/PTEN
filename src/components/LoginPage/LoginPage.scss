@@ -1,0 +1,43 @@
+.top-div{
+    
+    z-index: 10000;
+    padding: 0;
+    p{
+        span{
+            font-weight: 700;
+        }
+    }
+  }
+  .sticky{
+    position: sticky !important;
+    top: 0;
+  }
+  
+.login-container{
+    Form{
+        max-width: 300px;
+    }
+    
+    img{
+        max-width: 120px;
+    }
+    .password-group{
+        position: relative;
+    .show{
+        position: absolute;
+        top: 60%;
+        right: 10px;
+    }
+    }
+    
+    .header{
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: rgb(33, 43, 54);
+        text-align: center;
+
+    }
+    .password-reset{
+        color: rgb(31, 108, 196);
+    }
+}

@@ -1,14 +1,15 @@
 import './Button.scss'
 
 interface ButtonProps {
-    class: string,
-    text: string
+    className: string,
+    text: string,
+    onClick?: React.MouseEventHandler<HTMLButtonElement>
+    
 }
-
 
 export const Button = (props: ButtonProps) => {
     
     return(
-        <button className={props.class}>{props.text}</button>
+        <button className={props.className} onClick={props.onClick} >{props.text}</button>
     )
 }

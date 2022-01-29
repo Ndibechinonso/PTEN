@@ -5,7 +5,7 @@ type AlertProps = {
 }
 export const Alert = (props: AlertProps) =>{
     return(
-        <div className='top-bar'>
+        <div className='alert-bar'>
         {props.children}
         </div>
     )

@@ -10,7 +10,10 @@ body, html{
     font-size: 16px;
 }
 .app{
-  overflow-x: hidden;
+  // overflow-x: hidden;
+  a{
+    text-decoration: none;
+  }
 }
 
 /* width */
@@ -33,3 +36,28 @@ body, html{
  ::-webkit-scrollbar-thumb:hover {
    background: #555; 
  }
+
+ .cursor{
+   cursor: pointer;
+ }
+
+ .top-div{
+    
+  z-index: 10000;
+  padding: 0;
+  p{
+      span{
+          font-weight: 700;
+      }
+  }
+}
+.sticky{
+  position: sticky !important;
+  top: 0;
+}
+
+@media screen and (max-width: 800px) {
+  body, html{
+    font-size: 14px;
+}
+}
