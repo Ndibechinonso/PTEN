@@ -8,10 +8,11 @@
 body, html{
     max-width: 100%;
     font-size: 16px;
+    background: red;
 }
 .app{
-  // overflow-x: hidden;
-  a{
+width: 100vw;  
+a{
     text-decoration: none;
   }
 }

@@ -70,3 +70,15 @@
       }
   }
 }
+
+@media screen and (max-width: 700px) {
+  .form-div{
+    grid-template-columns: auto !important;
+}
+}
+
+@media screen and (max-width: 390px) {
+  .contact-container{
+    padding: 50px 5%;
+  }
+}
