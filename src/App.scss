@@ -8,11 +8,10 @@
 body, html{
     max-width: 100%;
     font-size: 16px;
-    background: red;
 }
 .app{
-width: 100vw;  
-a{
+  // overflow-x: hidden;
+  a{
     text-decoration: none;
   }
 }
@@ -61,5 +60,4 @@ a{
   body, html{
     font-size: 14px;
 }
-
 }
