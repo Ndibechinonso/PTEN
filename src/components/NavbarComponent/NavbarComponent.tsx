@@ -58,7 +58,7 @@ export const NavbarComponent = () =>{
 
   const logoutHandler = () => {
 
-    var backendURL =process.env.REACT_APP_BACKEND_URL
+    const backendURL =process.env.REACT_APP_BACKEND_URL
     
     fetch(`${backendURL}/users/logout`, {
       method: 'GET',
