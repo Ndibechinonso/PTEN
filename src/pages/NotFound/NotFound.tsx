@@ -1,5 +1,5 @@
-import { Button } from "../Button/Button";
-import { NavbarComponent } from "../NavbarComponent/NavbarComponent";
+import { Button } from "../../components/Button/Button";
+import { NavbarComponent } from "../../components/NavbarComponent/NavbarComponent";
 import "./NotFound.scss";
 import { useNavigate } from "react-router-dom";
 

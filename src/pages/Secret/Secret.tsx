@@ -1,5 +1,5 @@
 import "./Secret.scss";
-import { NavbarComponent } from "../NavbarComponent/NavbarComponent";
+import { NavbarComponent } from "../../components/NavbarComponent/NavbarComponent";
 import { useState, useEffect, useCallback } from "react";
 
 export const Secret = () => {

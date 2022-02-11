@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import { HomePage } from "../HomePage/HomePage";
-import { LandingPage } from "../LandingPage/LandingPage"
+import { HomePage } from "../../pages/HomePage/HomePage";
+import { LandingPage } from "../../pages/LandingPage/LandingPage"
 
 
 const RouterC = ()=>{

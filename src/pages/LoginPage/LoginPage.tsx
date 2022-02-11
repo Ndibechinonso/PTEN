@@ -1,5 +1,5 @@
 import "./LoginPage.scss";
-import { NavbarComponent } from "../NavbarComponent/NavbarComponent";
+import { NavbarComponent } from "../../components/NavbarComponent/NavbarComponent";
 import { Form, Button } from "react-bootstrap";
 import ptennavlogo from "../../Assets/ptenlogo_white.svg";
 import { useEffect, useState } from "react";

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { NavbarComponent } from "../NavbarComponent/NavbarComponent";
+import { NavbarComponent } from "../../components/NavbarComponent/NavbarComponent";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchSignUpData } from "../../redux";
 import "./Signup.scss";
