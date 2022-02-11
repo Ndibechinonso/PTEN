@@ -3,7 +3,7 @@ import { NavbarComponent } from "../NavbarComponent/NavbarComponent";
 import { useState, useEffect, useCallback } from "react";
 
 export const Secret = () => {
-  const [message, setMessage] = useState('Loading...')
+  const [message, setMessage] = useState('')
   const backendURL = process.env.REACT_APP_BACKEND_URL;
 
   useEffect(() => {
@@ -26,10 +26,10 @@ export const Secret = () => {
       <div className="top-div sticky">
           <NavbarComponent />
         </div>
-    
+  
     <div style={{ width: "100vw", height: "100vh" }}>
-      <h1>`This is a ${message}`</h1>
-    </div>
+    { message ?  <h1>Welcome {message}</h1>
+     : <h1>Loading...</h1>} </div>
     </>
   );
 };

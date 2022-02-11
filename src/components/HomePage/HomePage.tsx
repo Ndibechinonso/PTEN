@@ -21,7 +21,7 @@ export const HomePage = () => {
         </div>
     <div style={{ width: "100vw", height: "100vh" }}>
       <h1>Welcome</h1>
-     <li><Link to='/secret'>Secret</Link></li> 
+     <li><Link to='/secret'>Click this link to go the your secret Page</Link></li> 
     </div>
     </>
   );
